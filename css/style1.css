@@ -54,7 +54,7 @@
 
 				display: grid;
 			  	grid-template-columns: 0.5fr 5fr 2fr 0.5fr;
-			  	grid-template-rows: 10em 10em 20em 1fr 20em 10em;
+			  	grid-template-rows: 10em 20em 1fr 20em 10em;
 			  	grid-column-gap: 1.5em;
 			  	grid-auto-flow: column;
 			  	grid-template-areas:
@@ -71,10 +71,10 @@
 				grid-area: gallery;
 				display: grid;
 				grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-				grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+				grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 				grid-template-areas: 
-				"i1 i2 i3 i4 i5"
-				"i6 i7 i8 i9 i10"
+				"i1  i2  i3  i4  i5"
+				"i6  i7  i8  i9  i10"
 				"i11 i12 i13 i14 i15"
 				"i16 i17 i18 i19 i20"
 				"i21 i22 i23 i24 i25"
